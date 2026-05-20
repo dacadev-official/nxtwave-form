@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NXTWAVE | Descubre tu perfil</title>
+		<meta
+			name="description"
+			content="Formulario dinámico NXTWAVE para descubrir si eres creador, solucionador, protector o comunicador."
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"
+		></script>
+		<script type="module" src="./app.js"></script>
+	</head>
+	<body>
+		<div class="page-shell">
+			<div class="ambient ambient-left" aria-hidden="true"></div>
+			<div class="ambient ambient-right" aria-hidden="true"></div>
+			<main class="app-shell" aria-live="polite">
+				<section class="brand-rail" aria-label="Marca NXTWAVE">
+					<p class="eyebrow">Somos la revolución</p>
+					<h1 class="brand-title">NXTWAVE</h1>
+					<p class="brand-copy">
+						Responde con honestidad. Al final vas a descubrir la fuerza que ya estás trayendo a tu comunidad.
+					</p>
+					<ul class="brand-pillars" aria-label="Perfiles posibles">
+						<li>Creadores</li>
+						<li>Solucionadores</li>
+						<li>Protectores</li>
+						<li>Comunicadores</li>
+					</ul>
+				</section>
+
+				<section class="experience-panel" aria-label="Formulario dinámico">
+					<div class="panel-frame"></div>
+
+					<section class="view view-active" data-view="intro" aria-labelledby="intro-title">
+						<p class="step-label">Paso 01</p>
+						<h2 id="intro-title" class="view-title">Antes de empezar, dinos tu nombre y apellido</h2>
+						<p class="view-copy">
+							Vamos pregunta por pregunta. Sin prisa. Para comenzar, escribe un nombre y un apellido.
+						</p>
+
+						<form id="intro-form" class="intro-form">
+							<div class="intro-form-grid">
+								<div class="field-group">
+									<label class="field-label" for="name-input">Nombre</label>
+									<input
+										id="name-input"
+										name="firstName"
+										class="text-input"
+										type="text"
+										maxlength="40"
+										placeholder="Escribe tu nombre"
+										autocomplete="given-name"
+										required
+										aria-describedby="intro-name-rules"
+									/>
+								</div>
+
+								<div class="field-group">
+									<label class="field-label" for="last-name-input">Apellido</label>
+									<input
+										id="last-name-input"
+										name="lastName"
+										class="text-input"
+										type="text"
+										maxlength="50"
+										placeholder="Escribe tu apellido"
+										autocomplete="family-name"
+										required
+										aria-describedby="intro-name-rules"
+									/>
+								</div>
+							</div>
+
+							<p id="intro-name-rules" class="field-hint">
+								Es obligatorio escribir un nombre y un apellido.
+							</p>
+
+							<button id="start-button" class="btn-primary" type="submit">Comenzar</button>
+						</form>
+					</section>
+
+					<section class="view" data-view="loading" aria-labelledby="loading-title" hidden>
+						<p class="step-label">Cargando</p>
+						<h2 id="loading-title" class="view-title">Preparando tu recorrido</h2>
+						<p class="view-copy">Estamos cargando las preguntas desde el archivo local.</p>
+						<div class="loader" aria-hidden="true">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</section>
+
+					<section class="view" data-view="question" aria-labelledby="question-title" hidden>
+						<div class="question-meta">
+							<p id="progress-label" class="step-label">Pregunta 1 de 10</p>
+							<div class="progress-track" aria-hidden="true">
+								<div id="progress-bar" class="progress-fill"></div>
+							</div>
+						</div>
+
+						<h2 id="question-title" class="view-title"></h2>
+						<p id="question-helper" class="view-copy"></p>
+
+						<div id="question-card" class="question-card">
+							<div id="answers-container" class="answers-grid" role="list"></div>
+						</div>
+					</section>
+
+					<section class="view" data-view="result" aria-labelledby="result-title" hidden>
+						<p class="step-label">Resultado</p>
+						<div id="result-panel" class="result-panel" data-tone="neutral">
+							<div class="result-badge-row">
+								<span id="result-symbols" class="result-symbols" aria-hidden="true"></span>
+								<span class="result-chip">Dominante</span>
+							</div>
+							<h2 id="result-title" class="view-title"></h2>
+							<p id="result-copy" class="view-copy"></p>
+							<p id="result-summary" class="result-summary"></p>
+							<button id="restart-button" class="btn-primary" type="button">Volver a empezar</button>
+						</div>
+					</section>
+
+					<section class="view" data-view="error" aria-labelledby="error-title" hidden>
+						<p class="step-label">Error</p>
+						<h2 id="error-title" class="view-title">No pudimos cargar las preguntas</h2>
+						<p id="error-copy" class="view-copy">
+							Verifica que estés sirviendo el proyecto desde un servidor local y vuelve a intentarlo.
+						</p>
+						<button id="retry-button" class="btn-primary" type="button">Reintentar</button>
+					</section>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,212 @@
+[
+  {
+    "question": "1. En el colegio/universidad, ¿cuál es tu materia o actividad favorita?",
+    "answers": [
+      {
+        "value": "Arte, Música o Literatura.",
+        "type": "creators"
+      },
+      {
+        "value": "Matemáticas, Programación o Física.",
+        "type": "solvers"
+      },
+      {
+        "value": "Ética, Biología, Política o Sociales.",
+        "type": "protectors"
+      },
+      {
+        "value": "Idiomas, Debate o Teatro.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "2. Si ves que un amigo está pasando por un mal momento, ¿cómo reaccionas?",
+    "answers": [
+      {
+        "value": "Le haces una playlist, un dibujo o le escribes algo que lo inspire.",
+        "type": "creators"
+      },
+      {
+        "value": "Le ayudas a pensar en pasos prácticos para resolver su problema.",
+        "type": "solvers"
+      },
+      {
+        "value": "Vas a su casa, lo escuchas por horas y lo acompañas.",
+        "type": "protectors"
+      },
+      {
+        "value": "Le dices las palabras exactas que necesita oír para recuperar el ánimo.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "3. Imagina que el grupo de conexión va a organizar un campamento.3] ¿Qué es lo primero que te ofreces a hacer?",
+    "answers": [
+      {
+        "value": "Diseñar el logo, las camisetas y el video promocional.",
+        "type": "creators"
+      },
+      {
+        "value": "Armar el presupuesto, los horarios y la logística de transporte.",
+        "type": "solvers"
+      },
+      {
+        "value": "Estar pendiente de los que van por primera vez o se sienten solos.",
+        "type": "protectors"
+      },
+      {
+        "value": "Encargarte de animar las reuniones y convencer a todos de que vayan.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "4. ¿Qué type de videojuegos o aplicaciones prefieres?",
+    "answers": [
+      {
+        "value": "Los de construcción, diseño de mundos o edición de fotos/video.",
+        "type": "creators"
+      },
+      {
+        "value": "Los de estrategia, rompecabezas o gestión de recursos.",
+        "type": "solvers"
+      },
+      {
+        "value": "Los de rol donde hay que salvar personas o simuladores de vida.",
+        "type": "protectors"
+      },
+      {
+        "value": "Las redes sociales o juegos multijugador donde hay que hablar mucho.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "5. Qué es lo que más te duele del mundo",
+    "answers": [
+      {
+        "value": "Que a veces es muy aburrido y gris.",
+        "type": "creators"
+      },
+      {
+        "value": "Que es desordenado y caótico.",
+        "type": "solvers"
+      },
+      {
+        "value": "Que es un lugar injusto y enfermo.",
+        "type": "protectors"
+      },
+      {
+        "value": "Que es un lugar dividido, donde existe el odio y las peleas.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "6. ¿Cuál es tu red social favorita (por cómo la usas)?",
+    "answers": [
+      {
+        "value": "Pinterest o Instagram (por la estética y las ideas).",
+        "type": "creators"
+      },
+      {
+        "value": "YouTube (para tutoriales de cómo funcionan las cosas).",
+        "type": "solvers"
+      },
+      {
+        "value": "WhatsApp (para estar en contacto uno a uno y ayudar a otros).",
+        "type": "protectors"
+      },
+      {
+        "value": "Tik Tok o X/Twitter (para dar mi opinión o compartir noticias).",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "7. Cuando entras a una habitación llena de gente desconocida...",
+    "answers": [
+      {
+        "value": "Observas los detalles de la decoración o el estilo de la gente.",
+        "type": "creators"
+      },
+      {
+        "value": "Analizas cómo está organizado el evento y si algo falta.",
+        "type": "solvers"
+      },
+      {
+        "value": "Buscas a alguien que parezca tímido para hacerlo sentir cómodo.",
+        "type": "protectors"
+      },
+      {
+        "value": "Saludas a varias personas y empiezas una conversación.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "8. Si te dan una caja llena de piezas de LEGO, tú:",
+    "answers": [
+      {
+        "value": "Haces algo artístico que nadie más ha imaginado.",
+        "type": "creators"
+      },
+      {
+        "value": "Sigues las instrucciones al pie de la letra para que quede perfecto.",
+        "type": "solvers"
+      },
+      {
+        "value": "Construyes una casa u hospital para los personajes.",
+        "type": "protectors"
+      },
+      {
+        "value": "Inventas una historia sobre lo que está pasando entre las figuras.",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "9. ¿Qué frase te define mejor?",
+    "answers": [
+      {
+        "value": "\"Me encanta dar vida a nuevas ideas\".",
+        "type": "creators"
+      },
+      {
+        "value": "\"Me gusta que las cosas funcionen bien\".",
+        "type": "solvers"
+      },
+      {
+        "value": "\"Mi prioridad es que las personas estén bien\".",
+        "type": "protectors"
+      },
+      {
+        "value": "\"Me apasiona conectar a la gente con la verdad\".",
+        "type": "communicators"
+      }
+    ]
+  },
+  {
+    "question": "10. ¿Cómo crees que puedes servir mejor a Dios en un trabajo \"normal\"?",
+    "answers": [
+      {
+        "value": "Reflejando Su creatividad a través de la excelencia.",
+        "type": "creators"
+      },
+      {
+        "value": "Reflejando Su orden a través de la buena administración.",
+        "type": "solvers"
+      },
+      {
+        "value": "Reflejando Su amor a través del cuidado de los demás.",
+        "type": "protectors"
+      },
+      {
+        "value": "Reflejando Su mensaje a través de la enseñanza de la Biblia y mi testimonio personal.",
+        "type": "communicators"
+      }
+    ]
+  }
+]
