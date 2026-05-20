@@ -58,10 +58,12 @@ const elements = {
   resultCopy: document.querySelector('#result-copy'),
   resultSummary: document.querySelector('#result-summary'),
   resultSymbols: document.querySelector('#result-symbols'),
+  resultChip: document.querySelector('#result-chip'),
   retryButton: document.querySelector('#retry-button'),
   restartButton: document.querySelector('#restart-button'),
   errorCopy: document.querySelector('#error-copy'),
   views: Array.from(document.querySelectorAll('.view')),
+  entryCopy: document.querySelector('#entry-copy'),
 };
 
 elements.introForm.addEventListener('submit', handleStart);
@@ -87,6 +89,8 @@ async function handleStart(event) {
   state.scores = createEmptyScores();
 
   await loadQuestions();
+
+  elements.entryCopy.classList.add('entry-copy-hidden');
 }
 
 async function handleRetry() {
@@ -177,6 +181,7 @@ function renderResult() {
   elements.resultTitle.textContent = `${userName}, tu perfil dominante es ${config.title}`;
   elements.resultCopy.textContent = config.intro;
   elements.resultSummary.textContent = config.summary;
+  elements.resultChip.textContent = config.title;
   elements.resultSymbols.textContent = config.symbols;
 
   setView('result');
@@ -220,6 +225,7 @@ function resetExperience() {
   clearValidationMessage({ currentTarget: elements.nameInput });
   clearValidationMessage({ currentTarget: elements.lastNameInput });
   elements.nameInput.focus();
+  elements.entryCopy.classList.remove('entry-copy-hidden');
 }
 
 function triggerCelebration(tone) {

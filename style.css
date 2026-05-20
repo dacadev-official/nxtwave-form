@@ -448,6 +448,12 @@ button {
   .view {
     min-height: auto;
   }
+
+  .entry-copy-hidden {
+  display: none;
+  transform: translateY(28px);
+  transition: opacity var(--transition-slow), transform var(--transition-slow);
+}
 }
 
 @media (min-width: 981px) {

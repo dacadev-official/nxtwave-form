@@ -1,6 +1,6 @@
 [
   {
-    "question": "1. En el colegio/universidad, ¿cuál es tu materia o actividad favorita?",
+    "question": "En el colegio/universidad, ¿cuál es tu materia o actividad favorita?",
     "answers": [
       {
         "value": "Arte, Música o Literatura.",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "question": "2. Si ves que un amigo está pasando por un mal momento, ¿cómo reaccionas?",
+    "question": "Si ves que un amigo está pasando por un mal momento, ¿cómo reaccionas?",
     "answers": [
       {
         "value": "Le haces una playlist, un dibujo o le escribes algo que lo inspire.",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "question": "3. Imagina que el grupo de conexión va a organizar un campamento.3] ¿Qué es lo primero que te ofreces a hacer?",
+    "question": "Imagina que el grupo de conexión va a organizar un campamento. ¿Qué es lo primero que te ofreces a hacer?",
     "answers": [
       {
         "value": "Diseñar el logo, las camisetas y el video promocional.",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "question": "4. ¿Qué type de videojuegos o aplicaciones prefieres?",
+    "question": "¿Qué tipo de videojuegos o aplicaciones prefieres?",
     "answers": [
       {
         "value": "Los de construcción, diseño de mundos o edición de fotos/video.",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "question": "5. Qué es lo que más te duele del mundo",
+    "question": "Qué es lo que más te duele del mundo",
     "answers": [
       {
         "value": "Que a veces es muy aburrido y gris.",
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "question": "6. ¿Cuál es tu red social favorita (por cómo la usas)?",
+    "question": "¿Cuál es tu red social favorita (por cómo la usas)?",
     "answers": [
       {
         "value": "Pinterest o Instagram (por la estética y las ideas).",
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "question": "7. Cuando entras a una habitación llena de gente desconocida...",
+    "question": "Cuando entras a una habitación llena de gente desconocida...",
     "answers": [
       {
         "value": "Observas los detalles de la decoración o el estilo de la gente.",
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "question": "8. Si te dan una caja llena de piezas de LEGO, tú:",
+    "question": "Si te dan una caja llena de piezas de LEGO, tú:",
     "answers": [
       {
         "value": "Haces algo artístico que nadie más ha imaginado.",
@@ -168,7 +168,7 @@
     ]
   },
   {
-    "question": "9. ¿Qué frase te define mejor?",
+    "question": "¿Qué frase te define mejor?",
     "answers": [
       {
         "value": "\"Me encanta dar vida a nuevas ideas\".",
@@ -189,7 +189,7 @@
     ]
   },
   {
-    "question": "10. ¿Cómo crees que puedes servir mejor a Dios en un trabajo \"normal\"?",
+    "question": "¿Cómo crees que puedes servir mejor a Dios en un trabajo \"normal\"?",
     "answers": [
       {
         "value": "Reflejando Su creatividad a través de la excelencia.",
